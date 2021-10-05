@@ -1,0 +1,1 @@
+export declare const graphqlErrorJavascript = "\nexport class GraphQLError extends Error {\n    constructor(response) {\n      super(\"\");\n      this.response = response;\n      console.error(response);\n    }\n    toString() {\n      return \"GraphQL Response Error\";\n    }\n  }\n";

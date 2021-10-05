@@ -1,0 +1,1 @@
+export declare const graphqlErrorTypeScript = "\nexport class GraphQLError extends Error {\n    constructor(public response: GraphQLResponse) {\n      super(\"\");\n      console.error(response);\n    }\n    toString() {\n      return \"GraphQL Response Error\";\n    }\n  }\n";
